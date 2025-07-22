@@ -1,1 +1,23 @@
+User-agent: *
+Allow: /
 
+# Sitemap
+Sitemap: https://jhonatanrojas.github.io/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Allow all content for SEO
+Allow: /assets/
+Allow: /index.html
+
+# Disallow specific paths if needed (uncomment if necessary)
+# Disallow: /private/
+# Disallow: /temp/
